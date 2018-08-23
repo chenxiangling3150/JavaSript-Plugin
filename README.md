@@ -23,6 +23,6 @@
             jQuery.prototype.extend(ratingStars)
           还等价于：
             jQuery.fn.ratingStars = function( options ) {	}
-          //调用时：
+          调用时：
             $(".rating-stars").ratingStars(ratingOptions)
 ```
