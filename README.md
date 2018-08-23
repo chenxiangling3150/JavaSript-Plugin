@@ -25,4 +25,10 @@
             jQuery.fn.ratingStars = function( options ) {	}
           调用时：
             $(".rating-stars").ratingStars(ratingOptions)
+     ##2.jQuery.extend 函数使用详解
+         extend(dest,src1,src2,src3...);
+           它的含义是将src1,src2,src3...合并到dest中,返回值为合并后的dest,由此可以看出该方法合并后，是修改了dest的结构的。如果想要得到合并的结果却又            不想修改dest的结构，可以如下使用
+         举例：var settings = $.extend( {}, defaults, options );
+         上述的extend方法原型中的dest参数是可以省略的，如果省略了，则该方法就只能有一个src参数，而且是将该src合并到调用extend方法的对象中去
+    ##3.$.each(arr,function(index,element){})
 ```
