@@ -31,4 +31,7 @@
          举例：var settings = $.extend( {}, defaults, options );
          上述的extend方法原型中的dest参数是可以省略的，如果省略了，则该方法就只能有一个src参数，而且是将该src合并到调用extend方法的对象中去
     ##3.$.each(arr,function(index,element){})
+    ##4.jQuery中this与$(this)的区别总结
+      this其实是一个html 元素, $(this)是一个JQuery对象。  
+      学习网址： https://blog.csdn.net/BaiHuaXiu123/article/details/51959955
 ```
